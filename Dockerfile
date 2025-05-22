@@ -12,7 +12,7 @@ WORKDIR ${APP_HOME}
 
 USER 1002
 
-COPY --chown=1002:1001 ./*.war ${APP_HOME}/app.war
+#COPY --chown=1002:1001 ./*.war ${APP_HOME}/app.war
 
 EXPOSE 8081
 
